@@ -1,0 +1,305 @@
+@font-face {
+    font-family: "Erotique";
+    src: url("ErotiqueAlternateTrial-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Erotique Bold";
+    src: url("ErotiqueTrial-Bold.ttf");
+}
+
+body {
+	background-image: url('img/aua1.jpg');
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-size: 100% 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+	text-align: center;
+	font-family: Erotique Bold;
+	font-size: 20px;
+}
+
+.logo {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.menu {
+	float: right;
+	font-weight: 600;
+	margin-top: 24px;
+	margin-right: 15px;
+}
+
+.menu a {
+	text-decoration: none;
+	padding: 8px 15px;
+	color: black;
+}
+
+.menu a:hover {
+	color: #0232a6;
+	border-radius: 15px;
+}
+
+.menu a:last-child {
+	background-color: #0232a6;
+	color: whitesmoke;
+	border-radius: 15px;
+}
+
+.menu a:last-child:hover {
+	background-color: black;
+	color: white;
+}
+
+#greet h1 {
+	font-family: Erotique;
+	font-size: 75px;
+	text-align: center;
+}
+
+#greet p {
+	margin-top: -40px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.break {
+	margin-top: 40px;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+h1 {
+	font-family: Erotique Bold;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#projects {
+	page-break-after: always;
+}
+
+#projects h3 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: -10px;
+	font-family: Erotique Bold;
+	font-size: 20px;
+}
+
+#projects p {
+	padding: 5px 30px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+#projects a {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-weight: 600;
+	font-size: 14px;
+	background-color: white;
+	border-radius: 15px;
+	padding: 5px 10px;
+}
+
+#projects a:hover {
+	color: white;
+	background-color: black;
+}
+
+.prj1 {
+	float: left;
+	border: 1px solid;
+	border-color: black;
+	width: 28%;
+	border-radius: 80px;
+	margin-left: 4%;
+	height: 20%;
+}
+
+.prj2 {
+	float: left;
+	border: 1px solid;
+	border-color: black;
+	width: 28%;
+	border-radius: 80px;
+	margin-left: 4%;
+	height: 20%;
+}
+
+.prj3 {
+	float: right;
+	border: 1px solid;
+	border-color: black;
+	width: 28%;
+	border-radius: 80px;
+	margin-right: 4%;
+	height: 20%;
+}
+
+.footmenu {
+	margin-top: 400px;
+}
+
+ .logo1 {
+ 	margin-left: 50px;
+ }
+
+ .links {
+ 	margin-left: 60px;
+ }
+
+ .links a:hover {
+ 	color: white;
+ }
+
+.info {
+	margin-left: 63px;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+ .footmenu a {
+ 	text-decoration: none;
+	padding: 5px 5px;
+	color: black;
+	font-size: 14px;
+	font-weight: 600;
+ }
+
+.social {
+	margin-left: 63px;
+	margin-bottom: 30px;
+}
+
+.twt {
+	margin-left: 10px;
+}
+
+.abtleft {
+	float: left;
+	width: 40%;
+}
+
+.abt h1 {
+	margin-left: 60px;
+	font-family: Erotique;
+	font-size: 75px;
+	text-align: left;
+}
+
+.abt p {
+	margin-left: 60px;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: -30px;
+	margin-bottom: 50px;
+}
+
+.education h3 {
+	margin-top: 30px;
+	margin-left: 60px;
+	text-align: left;
+	font-style: Erotique Bold;
+}
+
+.education p {
+	margin-left: 60px;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: -10px;
+}
+
+.abtright {
+	float: right;
+	margin-top: 190px;
+}
+
+.software h3 {
+	margin-top: 30px;
+	margin-right: 60px;
+	text-align: right;
+}
+
+.software p {
+	margin-right: 60px;
+	margin-top: -10px;
+	text-align: right;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.myimg {
+	margin-left: 60px;
+	border-radius: 20px;
+}
+
+.myinfo {
+	position: absolute;
+	border: solid 1px black;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 14px;
+	font-weight: 500;
+	margin: 120px;
+	margin-top: -60px;
+	z-index: 1;
+	background-color: white;
+}
+
+.mesgs {
+	position: absolute;
+	text-align: right;
+	margin-right: 60px;
+	font-weight: 600;
+	margin-left: 1100px;
+	margin-top: 178px;
+}
+
+input {
+	border-radius: 10px;
+	padding: 5px;
+	border: solid 1px black;
+	width: 250px;
+	text-align: right;
+	font-family: "Montserrat";
+}
+
+#fmsg {
+	height: 100px;
+	text-align: right;
+	font-family: "Montserrat";
+}
+
+.flwer {
+	position: absolute;
+	margin-left: 620px;
+	margin-top: 250px;
+}
+
+.hhah {
+	margin-top: 20px;
+	border: solid 1px white;
+	border-radius: 10px;
+	background-color: #0232a6;
+	padding: 5px 20px;
+	color: white;
+	font-family: "Montserrat";
+	font-weight: 600;
+	width: 90px;
+}
+
+.hhah:hover {
+	background-color: black;
+}
