@@ -738,3 +738,12 @@ textarea.input1 + .shadow-input1 {
 	background-color: #0232a6;
 	border: solid 1px #0232a6;
 }
+
+.twitter-tweet {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 400px;
+  padding: 0px 50px;
+}
+
