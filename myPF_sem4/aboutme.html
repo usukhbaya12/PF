@@ -44,26 +44,26 @@
 			<ul id="rig">
 			    <li>
 			        <a class="rig-cell">
-			            <img class="rig-img" src="img/mez1.jpg" width="200px">
+			            <img class="rig-img" id="i1" width="200px">
 			            <span class=""></span>
 			        </a>
 			    </li>
 			    <li>
 			        <a class="rig-cell">
 			            <img class="rig-img" src="img/greyz.jpeg" width="200px">
-			            <span class="rig-text textz"><strong>Hello. Name's Usukhbayar.</strong></span>
+			            <span class="rig-text textz" id="s1"></span>
 			        </a>
 			    </li>
 			    <li>
 			        <a class="rig-cell">
-			            <img class="rig-img" src="img/mez2.jpg" width="200px">
+			            <img class="rig-img" id="i2" width="200px">
 			            <span class=""></span>
 			        </a>
 			    </li>
 			    <li>
 			        <a class="rig-cell">
 			            <img class="rig-img" src="img/cyanz.jpeg" width="200px">
-			            <span class="rig-text textz"><strong>I'm a 19 year old student of UFE.</strong></span>
+			            <span class="rig-text textz" id="s2"></span>
 			        </a>
 			    </li>
 			</ul>
@@ -71,30 +71,30 @@
 			    <li>
 			        <a class="rig-cell">
 			            <img class="rig-img" src="img/orange.jpeg" width="200px">
-			            <span class="rig-text textz"><strong>Majoring for Information System Management.</strong></span>
+			            <span class="rig-text textz" id="s3"></span>
 			        </a>
 			    </li>
 			    <li>
 			        <a class="rig-cell">
-			            <img class="rig-img" src="img/mez3.jpg" width="200px">
+			            <img class="rig-img" id="i3" width="200px">
 			            <span class=""></span>
 			        </a>
 			    </li>
 			    <li>
 			        <a class="rig-cell">
 			            <img class="rig-img" src="img/black.gif" width="200px">
-			            <span class="rig-text textz"><strong>Music nerd.</strong></span>
+			            <span class="rig-text textz" id="s4"></span>
 			        </a>
 			    </li>
 			    <li>
 			        <a class="rig-cell">
-			            <img class="rig-img" src="img/mez4.jpg" width="200px">
+			            <img class="rig-img" id="i4" width="200px">
 			            <span class=""></span>
 			        </a>
 			    </li>
 			</ul>
 		</div><br><br>
-		
+
 		<div class="justify-content-center container">
 			<h1>Favorite Quote</h1>
 			<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Manifest, but also do the work</p>&mdash; 🐐 (@JacqFlock) <a href="https://twitter.com/JacqFlock/status/1304884044094738440?ref_src=twsrc%5Etfw">September 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -107,22 +107,17 @@
 			    <div class="col-sm">
 			    	<p><img class="prjimg1" src="img/abt1.png" width="70px"></p>
 			      <h3>Education</h3>
-			      <p class="abtpp"><strong>2008-2020</strong><br/>1st School of Ulaanbaatar<br/><br/><strong>2018-2019</strong><br/>Nest Academy<br/><br/><strong>2020-Now</strong><br/>University of Finance and Economics</p>
+			      <p class="abtpp" id="edu"></p>
 			    </div>
 			    <div class="col-sm">
 			    	<p><img class="prjimg1" src="img/abt2.png" width="70px"></p>
 			      <h3>Key Strengths</h3>
-			      <p class="abtpp">detail-oriented · fast-learner · communicative · dedicated · creative vision · productivity · positive · work quality · analytical</p>
+			      <p class="abtpp" id="str"></p>
 			    </div>
 			    <div class="col-sm">
 			    	<p><img class="prjimg1" src="img/abt3.png" width="70px"></p>
 			      <h3>Software Skills</h3>
-			      <p class="abtpp">○○●●●●●●●● Photoshop<br/>
-				   ●●●●●●●●●● MS Office<br/>
-				   ○●●●●●●●●● Wondershare Filmora<br/>
-				   ○○○○○●●●●● Premiere Pro<br/>
-				   ○○○○●●●●●● MS Visual Studio
-				</p>
+			      <p class="abtpp" id="skill"></p>
 			    </div>
 			  </div>
 			</div>
@@ -175,8 +170,9 @@
 			</form>
 		</div>
 	</div>
-		
-		<img class="img-fluid break" src="img/waves.png">
+
+	<img class="img-fluid break" src="img/waves.png">
+	
 
 		<footer>
 		<div class="container footmenu">
@@ -196,6 +192,57 @@
 		</div>
 	</div>
 	</footer>
+
+	<script type="text/javascript">
+    	var abtdata = [
+    	{
+    		"img1": "img/mez1.jpg",
+    		"img2": "img/mez2.jpg",
+    		"img3": "img/mez3.jpg",
+    		"img4": "img/mez4.jpg",
+    		"span1": "Hello. Name's Usukhbayar",
+    		"span2": "I'm a 19 year old student of UFE.",
+    		"span3": "Majoring for Information System Management.",
+    		"span4": "Music nerd.",
+
+    	}];
+
+    	var skilldata = [
+    	{
+    		"edu": "<strong>2008-2020</strong><br/>1st School of Ulaanbaatar<br/><br/><strong>2018-2019</strong><br/>Nest Academy<br/><br/><strong>2020-Now</strong><br/>University of Finance and Economics",
+    		"str": "detail-oriented · fast-learner · communicative · dedicated · creative vision · productivity · positive · work quality · analytical",
+    		"skill": "○○●●●●●●●● Photoshop<br/>●●●●●●●●●● MS Office<br/>○●●●●●●●●● Wondershare Filmora<br/>○○○○○●●●●● Premiere Pro<br/>○○○○●●●●●● MS Visual Studio",
+    	}];
+
+    	json();
+
+    	function json(){
+    		var img1 = document.getElementById("i1");
+    		var img2 = document.getElementById("i2");
+    		var img3 = document.getElementById("i3");
+    		var img4 = document.getElementById("i4");
+    		var span1 = document.getElementById("s1");
+    		var span2 = document.getElementById("s2");
+    		var span3 = document.getElementById("s3");
+    		var span4 = document.getElementById("s4");
+    		var education = document.getElementById("edu");
+    		var strength = document.getElementById("str");
+    		var skills = document.getElementById("skill");
+
+    		img1.src = abtdata[0].img1;
+    		img2.src = abtdata[0].img2;
+    		img3.src = abtdata[0].img3;
+    		img4.src = abtdata[0].img4;
+    		span1.innerHTML = abtdata[0].span1;
+    		span2.innerHTML = abtdata[0].span2;
+    		span3.innerHTML = abtdata[0].span3;
+    		span4.innerHTML = abtdata[0].span4;
+    		education.innerHTML = skilldata[0].edu;
+    		strength.innerHTML = skilldata[0].str;
+    		skills.innerHTML = skilldata[0].skill;
+    	
+    	}
+    </script>
 	
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<script src="vendor/bootstrap/js/popper.js"></script>
